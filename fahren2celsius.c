@@ -9,7 +9,7 @@ int main(void)
 
   printf("Enter temperature in Fahrenheit: ");
   scanf("%f", &fahrenheit);
-  celsius = (fahrenheit - FREEZING_POINT) * SCALING_FACTOR;
+  celsius = (fahrenheit - FREEZING_PT) * SCALE_FACTOR;
   printf("Celsius equivalent: %.1f\n", celsius);
   return 0;
 }
