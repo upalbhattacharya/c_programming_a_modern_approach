@@ -6,9 +6,12 @@ int main(void)
   int height, length, width, volume, weight;
 
   // Static initialization for now
-  height = 8;
-  length = 12;
-  width = 10;
+  print("Enter height of box: ");
+  scanf("%d", &height);
+  print("Enter length of box: ");
+  scanf("%d", &length);
+  print("Enter width of box: ");
+  scanf("%d", &width);
   volume = height * length * width;
   weight = ceil((float)volume / 166);
 
