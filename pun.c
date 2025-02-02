@@ -1,6 +1,7 @@
 /* Name: pun.c                  
-   Purpose: Prints a bad C pun  
-   Author: Upal Bhattacharya    */
+ * Purpose: Prints a bad C pun  
+ * Author: Upal Bhattacharya
+*/
 
 #include <stdio.h>
 
